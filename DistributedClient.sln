@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DistributedClient", "DistributedClient\DistributedClient.csproj", "{D699D590-AB4D-4593-B00D-1C23C87F648C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DistributedServer", "..\DistributedServer\DistributedServer\DistributedServer.csproj", "{42015806-E694-42C9-AA81-CCE9472F1652}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D699D590-AB4D-4593-B00D-1C23C87F648C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D699D590-AB4D-4593-B00D-1C23C87F648C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D699D590-AB4D-4593-B00D-1C23C87F648C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D699D590-AB4D-4593-B00D-1C23C87F648C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42015806-E694-42C9-AA81-CCE9472F1652}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42015806-E694-42C9-AA81-CCE9472F1652}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42015806-E694-42C9-AA81-CCE9472F1652}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42015806-E694-42C9-AA81-CCE9472F1652}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
